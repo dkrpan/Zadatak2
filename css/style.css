@@ -1,0 +1,154 @@
+h3 {
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 800;
+	line-height: 15.4px;
+	color: #fff;
+}
+body {
+	color: #fff;
+}
+
+a {
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 19.4px;
+	color: #fff;
+}
+a:link    {
+  text-decoration:  none;
+  } 
+a:visited {
+  text-decoration:  none;
+  } 
+a:hover   {
+  text-decoration:  none;
+  color: #fff;
+  } 
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  underline;
+  color: #fff;
+  } 
+p {
+	font-family: "Open Sans";
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 14px;
+	color: #fff;
+}
+img {
+  /*  To contain the image to the confines of the div  */
+  max-width: 75%;
+}
+
+.header {
+  max-width: 100%; 
+  width: 1200px;
+  margin: auto;
+}
+
+.header::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to right, rgba(90, 80, 182, .6) 0, #6dd8c6 140%);
+  margin-top: -500px;
+  height: 500px;
+  width: 100%;
+  content: '';
+}
+.post-header  {
+  position: relative;
+  margin-top: -410px;
+  margin-left: 40%;
+  height: 380px;
+  width: 50%;
+  content: '';
+}
+.post-header-2  {
+  position: relative;
+  margin-top: -180px;
+  margin-left: 12%;
+  height: 180px;
+  width: 75%;
+  content: '';
+  color: #fff;
+  margin-bottom: 30px;
+}
+#navi {
+	margin-right: 30px;
+	
+}
+.main-nav{
+  max-width: 100%; 
+  width: 1200px;
+  margin: auto;
+  margin-top: 0;
+}
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+      z-index: 100;
+
+
+}
+.container{
+  max-width: 100%; 
+  width: 1200px;
+  margin: auto;
+}
+#content {
+  padding-bottom: 30px;
+  position: relative;
+  background-image:
+        linear-gradient(to right, rgba(120, 111, 188, 0.65), rgba(137, 212, 206, 0.65)), 
+        url('../img/bg/content-bg.png');
+  background-size: cover;
+}
+	
+#formdiv
+
+{
+	font-family: "Open Sans";
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 800;
+	line-height: 33px;
+	color: #fff;
+	
+}
+
+input {
+	font-family: "Open Sans";
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 16.5px;
+	color: #111;
+	text-align: center;
+
+	
+}
+.btn {
+  background: rgb(255, 255, 0);
+  color: #000;
+  border: none;
+    padding: 10px 120px;
+  font-size: 18px;
+}
+.btn:hover, .btn:focus {
+  background: rgb(255, 255, 0);
+}
+.btn:active {
+  background: rgb(255, 255, 71);
+}
